@@ -18,6 +18,7 @@ eval $(ssh-agent)
 ssh-add ~/.ssh/oscarlmjr_note
 git pull origin
 git push --set-upstream --force origin main
+git push --set-upstream origin main
 
 
 python -m venv .venv
